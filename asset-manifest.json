@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/notesapp_fe_mern/static/css/main.b11e4db6.chunk.css",
-    "main.js": "/notesapp_fe_mern/static/js/main.dd844dd3.chunk.js",
-    "main.js.map": "/notesapp_fe_mern/static/js/main.dd844dd3.chunk.js.map",
+    "main.js": "/notesapp_fe_mern/static/js/main.15940725.chunk.js",
+    "main.js.map": "/notesapp_fe_mern/static/js/main.15940725.chunk.js.map",
     "runtime-main.js": "/notesapp_fe_mern/static/js/runtime-main.1b9fbe59.js",
     "runtime-main.js.map": "/notesapp_fe_mern/static/js/runtime-main.1b9fbe59.js.map",
-    "static/js/2.43d72bce.chunk.js": "/notesapp_fe_mern/static/js/2.43d72bce.chunk.js",
-    "static/js/2.43d72bce.chunk.js.map": "/notesapp_fe_mern/static/js/2.43d72bce.chunk.js.map",
+    "static/js/2.820f7534.chunk.js": "/notesapp_fe_mern/static/js/2.820f7534.chunk.js",
+    "static/js/2.820f7534.chunk.js.map": "/notesapp_fe_mern/static/js/2.820f7534.chunk.js.map",
     "index.html": "/notesapp_fe_mern/index.html",
     "static/css/main.b11e4db6.chunk.css.map": "/notesapp_fe_mern/static/css/main.b11e4db6.chunk.css.map",
-    "static/js/2.43d72bce.chunk.js.LICENSE.txt": "/notesapp_fe_mern/static/js/2.43d72bce.chunk.js.LICENSE.txt",
+    "static/js/2.820f7534.chunk.js.LICENSE.txt": "/notesapp_fe_mern/static/js/2.820f7534.chunk.js.LICENSE.txt",
     "static/media/LandingPage.css": "/notesapp_fe_mern/static/media/background1.8369ba11.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1b9fbe59.js",
-    "static/js/2.43d72bce.chunk.js",
+    "static/js/2.820f7534.chunk.js",
     "static/css/main.b11e4db6.chunk.css",
-    "static/js/main.dd844dd3.chunk.js"
+    "static/js/main.15940725.chunk.js"
   ]
 }
