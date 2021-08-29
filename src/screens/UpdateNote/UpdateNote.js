@@ -34,7 +34,10 @@ function UpdateNote({ match }) {
           Authorization: `Bearer ${userInfo.token}`,
         },
       };
-      const { data } = await axios.get(`/api/notes/${match.params.id}`, config);
+      const { data } = await axios.get(
+        `https://notesapp-be-mern.herokuapp.com/api/notes/${match.params.id}`,
+        config
+      );
 
       setTitle(data.title);
       setContent(data.content);
@@ -110,7 +113,7 @@ function UpdateNote({ match }) {
               </Card>
             )}
 
-            <Form.Group controlId="category">
+            <Form.Group controlId="category" className="mb-3">
               <Form.Label>Category</Form.Label>
               <Form.Control
                 type="category"

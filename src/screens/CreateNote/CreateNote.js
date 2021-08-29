@@ -73,7 +73,7 @@ function CreateNote() {
               </Card>
             )}
 
-            <Form.Group controlId="category">
+            <Form.Group controlId="category" className="mb-3">
               <Form.Label>Category</Form.Label>
               <Form.Control
                 type="category"
