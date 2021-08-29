@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Button, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./LandingPage.css";
 
 function LandinPage({ history }) {
@@ -17,12 +18,12 @@ function LandinPage({ history }) {
               <h1 className="title">Welcome to Notes Holder</h1>
               <p className="subtitle">One safe place for all your notes</p>
               <div className="button-container">
-                <a href="/login">
+                <Link to="/login">
                   <Button size="lg" className="landing-button">
                     Login
                   </Button>
-                </a>
-                <a href="/register">
+                </Link>
+                <Link to="/register">
                   <Button
                     size="lg"
                     className="landing-button"
@@ -30,7 +31,7 @@ function LandinPage({ history }) {
                   >
                     Signup
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
