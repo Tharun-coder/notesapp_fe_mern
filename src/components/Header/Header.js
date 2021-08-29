@@ -47,8 +47,10 @@ function Header({ setSearch }) {
                 <Link to="/mynotes">My Notes</Link>
               </Nav.Link>
               <NavDropdown title={userInfo?.name} id="basic-nav-dropdown">
-                <NavDropdown.Item href="/profile">My Profile</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2" onClick={logOutHandler}>
+                <NavDropdown.Item>
+                  <Link to="/profile">My Profile</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item onClick={logOutHandler}>
                   Log Out
                 </NavDropdown.Item>
               </NavDropdown>

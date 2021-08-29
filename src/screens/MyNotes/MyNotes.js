@@ -90,8 +90,8 @@ function MyNotes({ search }) {
                       </Accordion.Toggle>
                     </span>
                     <div>
-                      <Button size="sm" href={`/note/${note._id}`}>
-                        Edit
+                      <Button size="sm">
+                        <Link to={`/note/${note._id}`}>Edit</Link>
                       </Button>
                       <Button
                         size="sm"
