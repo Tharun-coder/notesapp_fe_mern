@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import LandinPage from "./screens/LandingPage/LandinPage";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import MyNotes from "./screens/MyNotes/MyNotes";
 import Login from "./screens/Login/Login";
 import Register from "./screens/Register/Register";
