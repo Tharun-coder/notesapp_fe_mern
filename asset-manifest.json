@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/notesapp_fe_mern/static/css/main.b11e4db6.chunk.css",
-    "main.js": "/notesapp_fe_mern/static/js/main.e152a46c.chunk.js",
-    "main.js.map": "/notesapp_fe_mern/static/js/main.e152a46c.chunk.js.map",
+    "main.js": "/notesapp_fe_mern/static/js/main.e8c2b102.chunk.js",
+    "main.js.map": "/notesapp_fe_mern/static/js/main.e8c2b102.chunk.js.map",
     "runtime-main.js": "/notesapp_fe_mern/static/js/runtime-main.1b9fbe59.js",
     "runtime-main.js.map": "/notesapp_fe_mern/static/js/runtime-main.1b9fbe59.js.map",
     "static/js/2.e686cc8e.chunk.js": "/notesapp_fe_mern/static/js/2.e686cc8e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.1b9fbe59.js",
     "static/js/2.e686cc8e.chunk.js",
     "static/css/main.b11e4db6.chunk.css",
-    "static/js/main.e152a46c.chunk.js"
+    "static/js/main.e8c2b102.chunk.js"
   ]
 }
