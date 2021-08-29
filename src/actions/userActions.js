@@ -23,7 +23,7 @@ export const login = (email, password) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      "/api/users/login",
+      "https://notesapp-be-mern.herokuapp.com/api/users/login",
       {
         email,
         password,
@@ -59,7 +59,7 @@ export const register = (name, email, password, pic) => async (dispatch) => {
     };
 
     const { data } = await axios.post(
-      "/api/users",
+      "https://notesapp-be-mern.herokuapp.com/api/users",
       {
         name,
         email,
@@ -100,7 +100,11 @@ export const updateProfile = (user) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.post("/api/users/profile", user, config);
+    const { data } = await axios.post(
+      "https://notesapp-be-mern.herokuapp.com/api/users/profile",
+      user,
+      config
+    );
 
     dispatch({ type: USER_UPDATE_SUCCESS, payload: data });
 
