@@ -25,7 +25,7 @@ const reducer = combineReducers({
 });
 
 const userInfoFromStorage = localStorage.getItem("userInfo")
-  ? JSON.parse(localStorage.getItem("userInfo"))
+  ? JSON.parse(localStorage.getItem("userInfo")) // To get the userInfo from localStorage rather than redux as when it is refreshed userinfo might be removed from redux
   : null;
 
 const initialState = {
